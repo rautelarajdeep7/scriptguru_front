@@ -1,0 +1,83 @@
+header{
+    background-image: linear-gradient(to right, teal, violet);
+    color: white;
+    float: right;
+    width: 100%;
+}
+
+.seperation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+/* ---------------------------------- Side Bar ---------------------------------- */
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.board{
+    background-image: linear-gradient(to right, teal, violet);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+/* ---------------------------------- Task ---------------------------------- */
+
+.taskpanel{
+    width: 80vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.create-task{
+    float: right;
+    top: 10px;
+    right: 10px;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.taskview{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modal{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25vw;
+    padding: 10px;
+    position: absolute;
+    left: 30%;
+    top: 4%;
+}
+
+.task-item{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
